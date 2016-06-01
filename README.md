@@ -15,7 +15,7 @@ Visual question and answering (VQA) is still a new topic has not been fully stud
 ![Model architecture](https://cloud.githubusercontent.com/assets/10870023/15724892/0c758608-27fe-11e6-9e77-cb9c0ce6a265.png)
 
 
-The LSTM structure may replaced by RNN or GRU in this work. 
+The LSTM structure labeled above can be replaced by RNN or GRU simply by replacing '-model rnn' '-model gru'. 
 
 Here is what a typical RNN looks like:
 
@@ -78,7 +78,7 @@ th extract_fc7.lua -split val
 ### Training
 
 ```
-th train.lua
+th train.lua -gpuid 0 -model gru -`add more options`
 ```
 
 #### Options
@@ -88,12 +88,12 @@ th train.lua
 ### Testing
 
 ```
-th predict.lua -checkpoint_file checkpoints/vqa_epoch23.26_0.4610.t7 -input_image_path data/train2014/COCO_train2014_000000405541.jpg -question 'What is the cat on?'
+th predict.lua -checkpoint_file checkpoints/vqa_epoch23.26_0.4610.t7 -input_image_path data/train2014/COCO_train2014_000000405541.jpg -question 'What is the cat on?' -`add more options`
 ```
 
 #### Options
 
-- 'For more information please check the comment inside the file'
+- 'For more information please check the comment inside the source code file'
 
 ## Sample predictions
 
