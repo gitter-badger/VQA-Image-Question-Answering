@@ -93,9 +93,9 @@ th predict.lua -checkpoint_file checkpoints/vqa_epoch23.26_0.4610.t7 -input_imag
 
 Sample question and answers predicted by the VIS+RNN/LSTM/GRU model.
 
-![](https://cloud.githubusercontent.com/assets/10870023/15725763/3aff866e-2802-11e6-97ce-7788b9cd7844.png)
+![](http://i.imgur.com/V3nHbo9.jpg)
 
-![](https://cloud.githubusercontent.com/assets/10870023/15725789/58d71300-2802-11e6-94c6-18bfbf555553.png)
+![](http://i.imgur.com/QRBi6qb.jpg)
 
 
 ## References
