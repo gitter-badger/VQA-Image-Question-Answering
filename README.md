@@ -66,8 +66,7 @@ Download the [VGG-19][7] Caffe model and prototxt using `sh models/download_mode
 
 ## Pretrained Model and Data
 
-Since the original data set is quite large. (~21G), and it may take days to train the model. 
-[Click here to download Pretained Model and Data](https://www.dropbox.com/sh/fu7c9bojbl7w4o4/AAAHgZzMqRsG8Afj0bIBx30da?dl=0) 
+Since the original dataset is quite large (~21G),[You can click here to download Pretained Model and Data](https://www.dropbox.com/sh/fu7c9bojbl7w4o4/AAAHgZzMqRsG8Afj0bIBx30da?dl=0) 
 
 ## Usage
 
@@ -80,7 +79,7 @@ th extract_fc7.lua -split val
 
 #### Options
 
-- 'For more information please check the comment inside the file'
+- 'For more information, please check the comment inside the file'
 
 
 ### Training
@@ -105,7 +104,7 @@ th predict.lua -checkpoint_file checkpoints/vqa_epoch23.26_0.4610.t7 -input_imag
 
 ## Sample predictions
 
-Sample question and answers predicted by the VIS+RNN/LSTM/GRU model.
+Sample questions and answers predicted by the VIS+RNN/LSTM/GRU model.
 
 ![](https://cloud.githubusercontent.com/assets/10870023/15725763/3aff866e-2802-11e6-97ce-7788b9cd7844.png)
 
