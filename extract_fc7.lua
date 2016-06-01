@@ -22,7 +22,7 @@ cmd:option('-data_dir', 'data', 'Data directory.')
 cmd:option('-feat_layer', 'relu7', 'Layer to extract features from')
 cmd:option('-input_image_dir', 'data', 'Image directory')
 -- gpu/cpu
-cmd:option('-gpuid', -1, '0-indexed id of GPU to use. -1 = CPU')
+cmd:option('-gpuid', 0, '0-indexed id of GPU to use. -1 = CPU')
 
 opt = cmd:parse(arg or {})
 torch.manualSeed(opt.seed)

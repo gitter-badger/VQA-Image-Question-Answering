@@ -1,13 +1,3 @@
---[[
-    Torch implementation of the VIS + LSTM model from the paper
-    'Exploring Models and Data for Image Question Answering'
-    by Mengye Ren, Ryan Kiros & Richard Zemel.
-
-    This implementation passes the question embeddings
-    first and then the image embeddings into the LSTM,
-    and does a softmax over the answer vocabulary.
-]]--
-
 require 'torch'
 require 'nn'
 require 'nngraph'

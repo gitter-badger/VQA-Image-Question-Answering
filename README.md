@@ -8,9 +8,24 @@ This work explores image-based question-answering (QA) with different neural net
 
 The code is developed based on Abhishek Das's code https://github.com/abhshkdz/neural-vqa, and the paper
 [Exploring Models and Data for Image Question Answering][2] 
-by Mengye Ren, Ryan Kiros & Richard Zemel and .
+by Mengye Ren, Ryan Kiros & Richard Zemel.
+
+Visual question and answering (VQA) is still a new topic has not been fully studied. Even through there are many strong evidences suggest that long short term memory (LSTM) is much better than regular RNN, RNN may still achieve a good result since the question is normally very short. Gated Recurrent Units (GRUs), a simpler variant of LSTMs, were first proposed in 2014. It mainly serves the same purpose with LSTMs. Therefore, an empirical evaluation of VQA with different neural network models mentioned above is studied in this paper. 
 
 ![Model architecture](https://cloud.githubusercontent.com/assets/10870023/15724892/0c758608-27fe-11e6-9e77-cb9c0ce6a265.png)
+The LSTM structure may replaced by RNN or GRU in this work. 
+
+Here is what a typical RNN looks like:
+![](https://cloud.githubusercontent.com/assets/10870023/15726549/4df3ddde-2806-11e6-90b0-aaac095204e2.jpg)
+
+Here is what a typical LSTM looks like:
+![](https://cloud.githubusercontent.com/assets/10870023/15726551/4f40dcb4-2806-11e6-8df8-d3827fbcbce3.jpg)
+
+Here is what a typical GRU looks like:
+![](https://cloud.githubusercontent.com/assets/10870023/15726566/66e48e7e-2806-11e6-8f8c-d09c25727da0.jpg)
+
+Here is what a typical CNN looks like:
+![](https://cloud.githubusercontent.com/assets/10870023/15726571/704d28e0-2806-11e6-92c8-bcbeb385671f.jpg)
 
 ## Setup
 
@@ -76,8 +91,7 @@ th predict.lua -checkpoint_file checkpoints/vqa_epoch23.26_0.4610.t7 -input_imag
 
 ## Sample predictions
 
-Randomly sampled image-question pairs from the VQA test set,
-and answers predicted by the VIS+LSTM model.
+Sample question and answers predicted by the VIS+RNN/LSTM/GRU model.
 
 ![](http://i.imgur.com/V3nHbo9.jpg)
 
@@ -89,7 +103,6 @@ and answers predicted by the VIS+LSTM model.
 - [Exploring Models and Data for Image Question Answering][2], Ren et al., NIPS15
 - [VQA: Visual Question Answering][3], Antol et al., ICCV15
 - [Mscoco Dataset][11]
-
 ## License
 
 [MIT][12]

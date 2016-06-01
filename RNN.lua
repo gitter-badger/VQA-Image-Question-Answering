@@ -1,5 +1,3 @@
---require 'OneHot'
-
 local RNN= {}
 
 function RNN.create(input_size, rnn_size, n)
@@ -34,12 +32,6 @@ function RNN.create(input_size, rnn_size, n)
 
     table.insert(outputs, next_h)
   end
--- set up the decoder
-  --local top_h = outputs[#outputs]
-  --if dropout > 0 then top_h = nn.Dropout(dropout)(top_h) end
-  --local proj = nn.Linear(rnn_size, input_size)(top_h)
-  --local logsoft = nn.LogSoftMax()(proj)
-  --table.insert(outputs, logsoft)
 
   return nn.gModule(inputs, outputs)
 end
