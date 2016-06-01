@@ -13,18 +13,24 @@ by Mengye Ren, Ryan Kiros & Richard Zemel.
 Visual question and answering (VQA) is still a new topic has not been fully studied. Even through there are many strong evidences suggest that long short term memory (LSTM) is much better than regular RNN, RNN may still achieve a good result since the question is normally very short. Gated Recurrent Units (GRUs), a simpler variant of LSTMs, were first proposed in 2014. It mainly serves the same purpose with LSTMs. Therefore, an empirical evaluation of VQA with different neural network models mentioned above is studied in this paper. 
 
 ![Model architecture](https://cloud.githubusercontent.com/assets/10870023/15724892/0c758608-27fe-11e6-9e77-cb9c0ce6a265.png)
+
+
 The LSTM structure may replaced by RNN or GRU in this work. 
 
 Here is what a typical RNN looks like:
+
 ![](https://cloud.githubusercontent.com/assets/10870023/15727063/2ca9a228-2809-11e6-98f8-1be925e1f853.jpg)
 
 Here is what a typical LSTM looks like:
+
 ![](https://cloud.githubusercontent.com/assets/10870023/15727062/2ca75a68-2809-11e6-908e-a2ff48a3614c.jpg)
 
 Here is what a typical GRU looks like:
+
 ![](https://cloud.githubusercontent.com/assets/10870023/15727061/2ca6424a-2809-11e6-8d30-8dff3119f48e.jpg)
 
 Here is what a typical CNN looks like:
+
 ![](https://cloud.githubusercontent.com/assets/10870023/15726571/704d28e0-2806-11e6-92c8-bcbeb385671f.jpg)
 
 ## Setup
