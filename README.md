@@ -16,13 +16,13 @@ Visual question and answering (VQA) is still a new topic has not been fully stud
 The LSTM structure may replaced by RNN or GRU in this work. 
 
 Here is what a typical RNN looks like:
-![](https://cloud.githubusercontent.com/assets/10870023/15726549/4df3ddde-2806-11e6-90b0-aaac095204e2.jpg)
+![](https://cloud.githubusercontent.com/assets/10870023/15727063/2ca9a228-2809-11e6-98f8-1be925e1f853.jpg)
 
 Here is what a typical LSTM looks like:
-![](https://cloud.githubusercontent.com/assets/10870023/15726551/4f40dcb4-2806-11e6-8df8-d3827fbcbce3.jpg)
+![](https://cloud.githubusercontent.com/assets/10870023/15727062/2ca75a68-2809-11e6-908e-a2ff48a3614c.jpg)
 
 Here is what a typical GRU looks like:
-![](https://cloud.githubusercontent.com/assets/10870023/15726566/66e48e7e-2806-11e6-8f8c-d09c25727da0.jpg)
+![](https://cloud.githubusercontent.com/assets/10870023/15727061/2ca6424a-2809-11e6-8d30-8dff3119f48e.jpg)
 
 Here is what a typical CNN looks like:
 ![](https://cloud.githubusercontent.com/assets/10870023/15726571/704d28e0-2806-11e6-92c8-bcbeb385671f.jpg)
