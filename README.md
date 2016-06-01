@@ -62,7 +62,7 @@ Download the [VGG-19][7] Caffe model and prototxt using `sh models/download_mode
 - If working with plain Lua, [luaffifb][8] may be needed for [loadcaffe][9],unless using pre-extracted fc7 features.
 - The default of all the source file is set to GPU mode. 
   CPU mode is supported, but i don't think it is a good idea to train such large network in CPU.
-  [Embedding ADs](http://www.geforce.com/hardware/10series/geforce-gtx-1080)
+  [Embedding Ads](http://www.geforce.com/hardware/10series/geforce-gtx-1080)
 
 ## Pretrained Model and Data
 
