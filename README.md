@@ -103,6 +103,8 @@ Sample question and answers predicted by the VIS+RNN/LSTM/GRU model.
 - [Exploring Models and Data for Image Question Answering][2], Ren et al., NIPS15
 - [VQA: Visual Question Answering][3], Antol et al., ICCV15
 - [Mscoco Dataset][11]
+
+
 ## License
 
 [MIT][12]
