@@ -56,10 +56,18 @@ Download the [VGG-19][7] Caffe model and prototxt using `sh models/download_mode
 
 ### Known issues
 
-- To avoid memory issues with LuaJIT, install Torch with Lua 5.1 (`TORCH_LUA_VERSION=LUA51 ./install.sh`).
-More instructions [here][4].
-- If working with plain Lua, [luaffifb][8] may be needed for [loadcaffe][9],
-unless using pre-extracted fc7 features.
+- When you install torch/lua, LuaJIT is the default download version. However, LuaJIT limits the usage of the system memory up to 2G. 
+  To avoid memory issues with LuaJIT, install Torch with Lua 5.1 (`TORCH_LUA_VERSION=LUA51 ./install.sh`).
+  More instructions [here][4].
+- If working with plain Lua, [luaffifb][8] may be needed for [loadcaffe][9],unless using pre-extracted fc7 features.
+- The default of all the source file is set to GPU mode. 
+  CPU mode is supported, but i don't think it is a good idea to train such large network in CPU.
+  [Embedding ADs](http://www.geforce.com/hardware/10series/geforce-gtx-1080)
+
+## Pretrained Model and Data
+
+Since the original data set is quite large. (~21G), and it may take days to train the model. 
+[Click here to download Pretained Model and Data](https://www.dropbox.com/sh/fu7c9bojbl7w4o4/AAAHgZzMqRsG8Afj0bIBx30da?dl=0) 
 
 ## Usage
 
