@@ -1,5 +1,7 @@
 # Image-Question-Answering
 
+[![Join the chat at https://gitter.im/shawnxu1318/VQA-Image-Question-Answering](https://badges.gitter.im/shawnxu1318/VQA-Image-Question-Answering.svg)](https://gitter.im/shawnxu1318/VQA-Image-Question-Answering?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Join the chat at https://gitter.im/abhshkdz/neural-vqa](https://badges.gitter.im/abhshkdz/neural-vqa.svg)](https://gitter.im/abhshkdz/neural-vqa?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![Model architecture](https://cloud.githubusercontent.com/assets/10870023/15724955/5c194da2-27fe-11e6-8d85-2607a3acce28.jpg)
